@@ -178,7 +178,7 @@ class BlogController extends Controller{
 		$this->assign("blog", $blog);
 
 		$html = $this->render('detail');
-		$this->saveStatic("blog", $blogName);
+		$this->saveStatic("blog", $blogName, $html);
 		echo $html;
 	}
 

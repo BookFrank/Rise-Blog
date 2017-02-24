@@ -35,7 +35,7 @@ PHP 5.5.9+
      ```
 
 
-   - 先`clone`源码，然后执行`composer install`安装
+-    先`clone`源码，然后执行`composer install`安装
 
      ```shell
      git clone https://github.com/BookFrank/Stylite-Blog.git
@@ -90,3 +90,5 @@ PHP 5.5.9+
 Author: 李扬 Frank   
 
 Email: bookfrank@foxmail.com
+
+博客演示[http://blog.tazine.com](http://blog.tazine.com)

@@ -1,0 +1,26 @@
+{
+    "name": "bookfrank/kc",
+    "description": "Stylite - Simple Markdown Blog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank",
+            "email": "bookfrank@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "bookfrank/viaduct": "dev-master",
+        "twig/twig": "1.24.0",
+        "erusev/parsedown": "1.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stylite\\": "app/"
+        },
+        "files": [
+            "app/Common/common.php"
+        ]
+    }
+}

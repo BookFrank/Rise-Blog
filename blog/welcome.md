@@ -1,4 +1,15 @@
-# Stylite Blog 修行日志
+<!--
+author: Frank
+head: http://tva4.sinaimg.cn/crop.156.0.284.284.180/6480cc8cjw1ey58n3ptowj20go07x0tp.jpg
+date: 2017-01-31
+title: 欢迎使用Stylite Blog
+tags: StyliteBlog
+images: http://pingodata.qiniudn.com/cube2.jpg
+category: Stylite
+status: publish
+summary:人的一生就是一场修行，修行的路上欢迎你使用Stylite Blog来记录你的旅程。
+-->
+
 > 人的一生就是一场修行，
 >
 > 修行的路上欢迎你使用Stylite Blog来记录你的旅程。
@@ -76,3 +87,4 @@ PHP 5.5.9+
 Author: 李扬 Frank   
 
 Email: bookfrank@foxmail.com
+

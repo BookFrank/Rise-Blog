@@ -3,7 +3,7 @@
 return [
 
 	'url'         => '/',
-	'theme'       => 'simple',	
+	'theme'       => 'default',	
 	'title'       => "Stylite",
 	'subtitle'    => "人生是一场修行", 
 

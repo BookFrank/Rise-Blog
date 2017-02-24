@@ -57,7 +57,13 @@ PHP 5.5.9+
    }
    ```
 
-3. 打开浏览器，访问您的网站首页
+3. 给`public`文件夹授予权限，
+
+   ```shell
+   sudo chmod -R 777 public/ 
+   ```
+
+   然后打开浏览器，访问您的网站首页，
 
    www.your-blog.com
 

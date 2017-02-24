@@ -60,6 +60,13 @@ class Controller{
 	 */
 	public function saveStatic($type, $name, $content, $pageNum=0)
 	{
+		$dir = ROOT.'/public/static/'.$type;
+		if (!is_dir($dir)) {
+			if (!mkdir($dir, 0777, true)) {
+    			die('Failed to create folders...');
+			}
+		}
+
 		if ($type == "page" || $type == "blog") {
 			$file = ROOT.'/public/static/'.$type.'/'.$name.".html";
 		}else{

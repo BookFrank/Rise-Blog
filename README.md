@@ -28,11 +28,19 @@ PHP 5.5.9+
 
 ## 五. 安装说明 ##
 
-1. 使用composer安装或者直接下载源码  
+1. - 使用composer安装或者直接下载源码  
 
-   ```shell
-   composer require bookfrank/Stylite-Blog
-   ```
+     ```shell
+     composer require bookfrank/stylite-blog
+     ```
+
+
+   - 先`clone`源码，然后执行`composer install`安装
+
+     ```shell
+     git clone https://github.com/BookFrank/Stylite-Blog.git
+     composer install
+     ```
 
 2. Nginx配置虚拟主机指向`public`文件夹
 

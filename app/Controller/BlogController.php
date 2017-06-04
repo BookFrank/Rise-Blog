@@ -217,13 +217,12 @@ class BlogController extends Controller{
 		}
 		$cacheStr = file_get_contents($cacheFile);
 		$cache = explode("\n", $cacheStr);
-
 		$now = [];
 		$blogPath = ROOT."/blog";
 		$allFiles = get_file_in_dir($blogPath);
 		foreach ($allFiles as $file) { $now[] = md5_file($file['path']);}
 		$now[] = md5_file(ROOT.'/app/Config/config.php'); // 监控配置文件变更
-		$diff = array_diff($cache, $now);
+		$diff = mutual_array_diff($cache, $now);
 		if (count($diff) != 0) {
 			$this->removeCacheHtml();
 			$cont = implode("\n", $now);

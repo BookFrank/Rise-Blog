@@ -108,3 +108,18 @@
 		return $sortArr;
 	}
 
+	/**
+	 * [求出两个数组的不一致项]
+	 * @return [Array] [description]
+	 */
+	function mutual_array_diff($arrA, $arrB)
+	{
+		$res = [];
+		if (is_array($arrA) && is_array($arrB)) {
+			$diffA = array_diff($arrA, $arrB);
+			$diffB = array_diff($arrB, $arrA);
+			$res = array_merge($res, $diffA, $diffB);
+		}
+		return $res;
+	}
+

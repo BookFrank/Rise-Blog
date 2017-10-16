@@ -2,27 +2,27 @@
 author: Frank
 head: http://tva4.sinaimg.cn/crop.156.0.284.284.180/6480cc8cjw1ey58n3ptowj20go07x0tp.jpg
 date: 2017-01-31
-title: 欢迎使用Stylite Blog
-tags: StyliteBlog
+title: 欢迎使用Rise Blog
+tags: RiseBlog
 images: http://pingodata.qiniudn.com/cube2.jpg
-category: Stylite
+category: Rise
 status: publish
-summary:人的一生就是一场修行，修行的路上欢迎你使用Stylite Blog来记录你的旅程。
+summary:人的一生就是一场修行，修行的路上欢迎你使用Rise Blog来记录你的旅程。
 -->
 
 > 人的一生就是一场修行，
 >
-> 修行的路上欢迎你使用Stylite Blog来记录你的旅程。
+> 修行的路上欢迎你使用Rise Blog来记录你的旅程。
 
 ## 一. 简介 ##
 
-Stylite Blog，中文名为修行日志，是一款使用PHP开发的支持Markdown的博客系统，特点就是非常简单，不需要数据库，也没有后台。本地编写完Markdown文件，上传至blog文件夹内，刷新页面就可以看到响应式的HTML页面。
+Rise Blog，中文名为修行日志，是一款使用PHP开发的支持Markdown的博客系统，特点就是非常简单，不需要数据库，也没有后台。本地编写完Markdown文件，上传至blog文件夹内，刷新页面就可以看到响应式的HTML页面。
 
-## 二. 为什么写Stylite
+## 二. 为什么写Rise
 
 自从认识了Markdown以后，便一直用喜欢用Markdown来写文章和技术文档。就是喜欢这种简单的形式，个人博客也由复杂的Wordpress转为简单的Gitblog来作为自己线上博客的系统。
 
-在使用Gitblog过程中，发现Gitblog在一些方面不能满足我的要求，于是开始看Gitblog的代码准备改造一下，后来有段时间不是很忙就想着干脆我自己重写一个算了，于是先有了Viaduct路由，再一步一步地完成了Stylite。 
+在使用Gitblog过程中，发现Gitblog在一些方面不能满足我的要求，于是开始看Gitblog的代码准备改造一下，后来有段时间不是很忙就想着干脆我自己重写一个算了，于是先有了Viaduct路由，再一步一步地完成了Rise。 
 
 ## 二. 功能特点 ##
 
@@ -42,7 +42,7 @@ PHP 5.5.9+
 1. 使用composer安装或者直接下载源码  
 
    ```shell
-   composer require bookfrank/Stylite-Blog
+   composer require bookfrank/Rise-Blog
    ```
 
 2. Nginx配置虚拟主机指向`public`文件夹
@@ -78,11 +78,11 @@ PHP 5.5.9+
 
 ## 六. 感谢 ##
 
-如果你有幸看到这里，欢迎您来使用Stylite Blog来记录你的生活。
+如果你有幸看到这里，欢迎您来使用Rise Blog来记录你的生活。
 
 也非常欢迎根据你们的需要去随意改写代码。
 
-感谢你们使用Stylite Blog。
+感谢你们使用Rise Blog。
 
 Author: 李扬 Frank   
 

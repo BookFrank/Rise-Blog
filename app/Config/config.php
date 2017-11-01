@@ -4,14 +4,14 @@ return [
 
 	'url'         => '/',
 	'theme'       => 'default',	
-	'title'       => "Stylite",
-	'subtitle'    => "人生是一场修行", 
+	'title'       => "Rise",
+	'subtitle'    => "人的一生就是一场修行，希望你能一路Rise!", 
 
 	'pageSize'    => 2,
 	'pageBarSize' => 3,
 	'highlight'   => 'on',
 
-	'description' => "Stylite-修行者，简单易用支持静态化的Markdown博客系统。",
+	'description' => "RiseBlog-修行日志，简单易用支持静态化的Markdown博客系统。",
 	'version'     => 2.2,
 	'duoshuo'     => 'stylite',
 

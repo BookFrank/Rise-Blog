@@ -1,6 +1,10 @@
 <?php
 namespace Stylite\Controller;
 
+/**
+ * 博客基类控制器
+ * @author Frank<bookfrank@foxmail.com>
+ */
 class Controller{
 
 	protected $pageData;

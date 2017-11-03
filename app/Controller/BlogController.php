@@ -2,6 +2,10 @@
 namespace Stylite\Controller;
 use Stylite\Model\BlogModel;
 
+/**
+ * 博客页面控制器
+ * @author Frank <bookfrank@foxmail.com>
+ */
 class BlogController extends Controller{
 
 

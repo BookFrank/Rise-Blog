@@ -1,6 +1,10 @@
 <?php
 namespace Stylite\Model;
 
+/**
+ * 博客模型
+ * @author Frank<bookfrank@foxmail.com>
+ */
 class BlogModel extends Model{
 
 	private $blogs = []; // 所有blog

@@ -1,6 +1,10 @@
 <?php
 namespace Stylite\Model;
 
+/**
+ * 基类模型
+ * @author Frank<bookfrank@foxmail.com>
+ */
 class Model{
 
 	/**

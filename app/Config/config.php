@@ -13,7 +13,7 @@ return [
 
 	'description' => "RiseBlog-修行日志，简单易用支持静态化的Markdown博客系统。",
 	'version'     => 2.2,
-	'duoshuo'     => 'stylite',
+	'changyan'     => 'cytl8eXAI', // 对应的搜狐畅言APP_ID
 
 	'author' => [
 	    'name'    => 'BookFrank',

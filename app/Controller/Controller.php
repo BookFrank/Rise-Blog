@@ -3,6 +3,7 @@ namespace Stylite\Controller;
 
 /**
  * 博客基类控制器
+ *
  * @author Frank<bookfrank@foxmail.com>
  */
 class Controller{
@@ -11,6 +12,7 @@ class Controller{
 
 	/**
 	 * [渲染模板]
+	 *
 	 * @param  [string] $name   [模板名]
 	 * @return [type]    html   [html页面]
 	 */
@@ -24,6 +26,7 @@ class Controller{
 
 	/**
 	 * [页面填充数据方法]
+	 *
 	 * @param  [string] $key   [key]
 	 * @param  [type]   $value [description]
 	 * @return [type]        [description]
@@ -35,6 +38,7 @@ class Controller{
 
 	/**
 	 * [载入静态化文件]
+	 *
 	 * @param  [type] $type [blog page tags ]
 	 * @param  [type] $name [filename]
 	 * @return [string]     [html页面]
@@ -58,6 +62,7 @@ class Controller{
 
 	/**
 	 * [保存静态文件]
+	 *
 	 * @param  [type] $type [控制器名称]
 	 * @param  [type] $name [静态化文件名]
 	 * @return 
@@ -80,7 +85,4 @@ class Controller{
 		fwrite($fp, $content);
 		fclose($fp);
 	}
-
-
-
 }

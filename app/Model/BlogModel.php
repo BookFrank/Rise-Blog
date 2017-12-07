@@ -3,6 +3,7 @@ namespace Stylite\Model;
 
 /**
  * 博客模型
+ *
  * @author Frank<bookfrank@foxmail.com>
  */
 class BlogModel extends Model{
@@ -41,6 +42,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [实例化模型时读取所有md文件]
+	 *
 	 * @param  [type] $files [description]
 	 * @return [type]        [description]
 	 */
@@ -74,6 +76,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [读取博客的元信息]
+	 *
 	 * @param  [type] $metaInfoArr [description]
 	 * @param  [type] $metaInfoArr [description]
 	 * @return [type]              [description]
@@ -147,6 +150,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [用户输入的多段字符串分组]
+	 *
 	 * @param  [type] $keywordsStr [description]
 	 * @return [type]              [description]
 	 */
@@ -165,6 +169,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [解析markdown文件内容为html文本]
+	 *
 	 * @param  [type] $text [description]
 	 * @return [type]       [description]
 	 */
@@ -180,6 +185,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [获取博客总页数]
+	 *
 	 * @param  [type] $pageSize [description]
 	 * @return [type]           [description]
 	 */
@@ -191,6 +197,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [分页获取首页博客]
+	 *
 	 * @param  [type] $pageNum  [description]
 	 * @param  [type] $pageSize [description]
 	 * @return [type]           [description]
@@ -204,6 +211,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [根据分类id获取分类详情]
+	 *
 	 * @param  [type] $cateId [description]
 	 * @return [type]         [description]
 	 */
@@ -214,6 +222,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [获取某分类下博客总页数]
+	 *
 	 * @param  [type] $cateId   [description]
 	 * @param  [type] $pageSize [description]
 	 * @return [type]           [description]
@@ -226,6 +235,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [分页获取某分类下博客]
+	 *
 	 * @param  [type] $cateId   [description]
 	 * @param  [type] $pageNum  [description]
 	 * @param  [type] $pageSize [description]
@@ -246,6 +256,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [根据标签id获取标签详情]
+	 *
 	 * @param  [type] $tagId [description]
 	 * @return [type]        [description]
 	 */
@@ -256,6 +267,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [获取某标签下博客总页数]
+	 *
 	 * @param  [type] $tagId    [description]
 	 * @param  [type] $pageSize [description]
 	 * @return [type]           [description]
@@ -268,6 +280,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [分页获取某标签下的博客]
+	 *
 	 * @param  [type] $tagId    [description]
 	 * @param  [type] $pageNum  [description]
 	 * @param  [type] $pageSize [description]
@@ -288,6 +301,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [根据日期id获取日期详情]
+	 *
 	 * @param  [type] $dateId [description]
 	 * @return [type]         [description]
 	 */
@@ -298,6 +312,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [获取某日期下博客总页数]
+	 *
 	 * @param  [type] $dateId   [description]
 	 * @param  [type] $pageSize [description]
 	 * @return [type]           [description]
@@ -310,6 +325,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [分页获取某日期归档下的博客]
+	 *
 	 * @param  [type] $dateId   [description]
 	 * @param  [type] $pageNum  [description]
 	 * @param  [type] $pageSize [description]
@@ -330,6 +346,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [根据id获取博客]
+	 *
 	 * @param  [type] $blogId [description]
 	 * @return [type]         [description]
 	 */
@@ -340,6 +357,7 @@ class BlogModel extends Model{
 
 	/**
 	 * [根据标题查找相关博客]
+	 *
 	 * @param  [type]  $title [description]
 	 * @param  integer $max   [description]
 	 * @return [type]         [description]
@@ -356,5 +374,4 @@ class BlogModel extends Model{
 		return $blogList;
 	}
 	/********************************Page END********************************/
-
 }

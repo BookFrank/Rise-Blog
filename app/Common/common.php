@@ -2,6 +2,7 @@
 
 	/**
 	 * [获取和设置配置 支持数组定义]
+	 *
 	 * @param  [type] $name    [description]
 	 * @param  [type] $value   [description]
 	 * @param  [type] $default [description]
@@ -32,6 +33,7 @@
 
 	/**
 	 * [读取目录中的所有文件]
+	 *
 	 * @param  string $dir [目录地址]
 	 * @return Array  $res [文件地址数组]
 	 */
@@ -56,6 +58,7 @@
 
 	/**
 	 * [获取文件的属性信息]
+	 *
 	 * @param  [string] $filePath [文件地址]
 	 * @return [Array]  $fileInfo [属性数组]
 	 */
@@ -74,6 +77,7 @@
 
 	/**
 	 * [将关键词字符串转为数组，兼容中文与特殊符号]
+	 *
 	 * @param  [string] $str [description]
 	 * @return [Array]      [description]
 	 */
@@ -91,6 +95,7 @@
 
 	/**
 	 * [多维数组根据某一列排序]
+	 *
 	 * @return [type] [description]
 	 */
 	function multi_array_sort($sortArr, $sortKey, $sort = SORT_DESC)
@@ -110,6 +115,7 @@
 
 	/**
 	 * [求出两个数组的不一致项]
+	 *
 	 * @return [Array] [description]
 	 */
 	function mutual_array_diff($arrA, $arrB)

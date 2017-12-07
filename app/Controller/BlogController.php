@@ -4,10 +4,10 @@ use Stylite\Model\BlogModel;
 
 /**
  * 博客页面控制器
+ *
  * @author Frank <bookfrank@foxmail.com>
  */
 class BlogController extends Controller{
-
 
 	private $blogModel;
 
@@ -34,6 +34,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [博客首页]
+	 *
 	 * @return [type] [description]
 	 */
 	public function index()
@@ -43,6 +44,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [首页分页展示]
+	 *
 	 * @param  [type] $pageNum [description]
 	 * @return [type]          [description]
 	 */
@@ -71,6 +73,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [分类文章展示]
+	 *
 	 * @param  [type]  $cateId  [description]
 	 * @param  integer $pageNum [description]
 	 * @return [type]           [description]
@@ -102,6 +105,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [日期归档文章展示]
+	 *
 	 * @param  [type]  $dateId  [description]
 	 * @param  integer $pageNum [description]
 	 * @return [type]           [description]
@@ -134,6 +138,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [标签文章展示]
+	 *
 	 * @param  [int]  $tagId   [description]
 	 * @param  integer $pageNum [description]
 	 * @return [type]           [description]
@@ -165,6 +170,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [blog文章展示]
+	 *
 	 * @param  [string] $blogName [文档名称]
 	 * @return  html页面
 	 */
@@ -188,6 +194,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [文档检索方法]
+	 *
 	 * @return [type] [description]
 	 */
 	public function search() 
@@ -210,6 +217,7 @@ class BlogController extends Controller{
 
 	/**
 	 * [对比缓存判断有无任何变更]
+	 *
 	 * @return boolean [description]
 	 */
 	public function hasChange()
@@ -236,7 +244,6 @@ class BlogController extends Controller{
 
 	/**
 	 * [删除所有静态化的文件]
-	 * @return [type] [description]
 	 */
 	public function removeCacheHtml()
 	{

@@ -3,19 +3,22 @@ namespace Stylite\Model;
 
 /**
  * 基类模型
+ *
  * @author Frank<bookfrank@foxmail.com>
  */
 class Model{
 
 	/**
 	 * [博客分页方法]
+	 *
 	 * @param  [type]  $pages   [description]
 	 * @param  [type]  $pageNo  [description]
 	 * @param  integer $showLen [description]
 	 * @param  string  $path    [description]
 	 * @return [type]           [description]
 	 */
-	public function splitPage($pages, $pageNo, $showLen=4, $path="/") {
+	public function splitPage($pages, $pageNo, $showLen=4, $path="/") 
+	{
 		$pagination = [];
 		$pageList = [];
 		$showList = [];
@@ -63,5 +66,4 @@ class Model{
 		
 		return $pagination;
     }
-
 }

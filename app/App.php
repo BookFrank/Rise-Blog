@@ -17,6 +17,7 @@ class App{
 
 	/**
 	 * [开启应用]
+	 *
 	 * @return [type] [description]
 	 */
 	public function start()
@@ -26,6 +27,7 @@ class App{
 
 	/**
 	 * [加载配置]
+	 *
 	 * @return [type] [description]
 	 */
 	public function loadConfig()

@@ -100,9 +100,10 @@
 	 */
 	function multi_array_sort($sortArr, $sortKey, $sort = SORT_DESC)
 	{
+
 		$keyArr = [];
 		if (is_array($sortArr)) {
-			if (count($sortArr == 1)) {
+			if (count($sortArr) == 1) {
 				return $sortArr;
 			}
 			foreach ($sortArr as $secArr) {
